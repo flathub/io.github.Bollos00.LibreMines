@@ -9,6 +9,7 @@
     "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
+        "--socket=pulseaudio",
         "--socket=wayland",
         "--filesystem=xdg-data/libremines:create",
         "--device=dri"
@@ -25,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Bollos00/LibreMines/archive/refs/tags/v1.8.0.tar.gz",
-                    "sha256": "4078e2b986c6021105c2cbfa42e2e0cfa7e407acc14266bee460dfb9328c25ab"
+                    "url": "https://github.com/Bollos00/LibreMines/archive/refs/tags/v1.9.0.tar.gz",
+                    "sha256": "103d54caa30c107ca3e09ef0a563a394dc58d99691b5956f39a3c9ab3bcee355"
                 },
                 {
                     "type": "file",
