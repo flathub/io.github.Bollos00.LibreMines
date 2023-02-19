@@ -12,6 +12,7 @@
         "--socket=pulseaudio",
         "--socket=wayland",
         "--filesystem=xdg-data/libremines:create",
+        "--persist=.local/share/libremines",
         "--device=dri"
     ],
     "modules": [
