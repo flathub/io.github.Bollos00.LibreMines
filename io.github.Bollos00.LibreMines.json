@@ -23,7 +23,9 @@
 
             "name": "libremines",
             "buildsystem": "cmake-ninja",
-
+            "config-opts": [
+                "-DINSTALL_EXTRA_MINEFIELD_THEMES=FALSE"
+            ],
             "sources": [
                 {
                     "type": "archive",
