@@ -11,8 +11,8 @@
         "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--socket=wayland",
-        "--filesystem=xdg-data/libremines:create",
-        "--persist=.local/share/libremines",
+        // "--filesystem=xdg-data/libremines:create",
+        "--persist=.local/share/libremines"
         "--device=dri"
     ],
     "modules": [
@@ -24,7 +24,7 @@
             "name": "libremines",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DINSTALL_EXTRA_MINEFIELD_THEMES=FALSE"
+                "-DINSTALL_EXTRA_MINEFIELD_THEMES=TRUE"
             ],
             "sources": [
                 {
