@@ -28,8 +28,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Bollos00/LibreMines/archive/refs/heads/master.zip",
-                    "sha256": "5e1379493bc3453485407d7ef58a522b3af614e53728a6517bd287922d8c6030"
+                    "url": "https://github.com/Bollos00/LibreMines/archive/refs/tags/v1.10.0.tar.gz",
+                    "sha256": "9e8889a1cc0dab807ad363ea36d0771106b92a80ff5fe0a055a38706ab38690e"
                 },
                 {
                     "type": "file",
