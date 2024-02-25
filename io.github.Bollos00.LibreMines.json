@@ -1,7 +1,7 @@
 {
     "app-id": "io.github.Bollos00.LibreMines",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.6",
+    "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "command": "libremines",
     "rename-desktop-file": "libremines.desktop",
@@ -22,7 +22,10 @@
 
             "name": "libremines",
             "buildsystem": "cmake-ninja",
-
+            "config-opts": [
+                "-DUSE_QT6=NO",
+                "-Wno-dev"
+            ],
             "sources": [
                 {
                     "type": "archive",
