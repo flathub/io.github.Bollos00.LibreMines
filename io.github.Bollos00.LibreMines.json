@@ -1,40 +1,31 @@
 {
     "app-id": "io.github.Bollos00.LibreMines",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "command": "libremines",
-    "rename-desktop-file": "libremines.desktop",
     "rename-icon": "libremines",
     "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--socket=wayland",
-        "--filesystem=~/.local/share/libremines:ro",
         "--device=dri"
     ],
     "modules": [
         {
-            "post-install": [
-                "install -D -m644 io.github.Bollos00.LibreMines.appdata.xml /app/share/appdata/io.github.Bollos00.LibreMines.appdata.xml"
-            ],
+            
 
             "name": "libremines",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DUSE_QT6=NO",
                 "-Wno-dev"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Bollos00/LibreMines/archive/refs/tags/v2.0.1.tar.gz",
-                    "sha256": "5db00e824b9986fae1ffc1a8a7c1e60e0e9f769314005567b25b724aa2c85a89"
-                },
-                {
-                    "type": "file",
-                    "path": "io.github.Bollos00.LibreMines.appdata.xml"
+                    "url": "https://github.com/Bollos00/LibreMines/archive/refs/tags/v2.1.0.tar.gz",
+                    "sha256": "5efd4faaf5db8b85687107576097cc6e80d6c2c136dc388b2793fb738c4a85ba"
                 }
             ]
         }
