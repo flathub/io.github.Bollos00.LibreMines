@@ -14,7 +14,10 @@
     ],
     "modules": [
         {
-            
+            "post-install": [
+                "mkdir -p /app/share/metainfo",
+                "mv /app/share/metainfo/io.github.bollos00.libremines.appdata.xml /app/share/metainfo/io.github.Bollos00.LibreMines.metainfo.xml"
+            ],
 
             "name": "libremines",
             "buildsystem": "cmake-ninja",
