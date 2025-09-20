@@ -14,11 +14,6 @@
     ],
     "modules": [
         {
-            "post-install": [
-                "mkdir -p /app/share/metainfo",
-                "mv /app/share/metainfo/io.github.bollos00.libremines.appdata.xml /app/share/metainfo/io.github.Bollos00.LibreMines.metainfo.xml"
-            ],
-
             "name": "libremines",
             "buildsystem": "cmake-ninja",
             "config-opts": [
@@ -27,8 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Bollos00/LibreMines/archive/refs/tags/v2.1.0.tar.gz",
-                    "sha256": "5efd4faaf5db8b85687107576097cc6e80d6c2c136dc388b2793fb738c4a85ba"
+                    "url": "https://github.com/Bollos00/LibreMines/archive/refs/tags/v2.2.0.tar.gz",
+                    "sha256": "36bf21ea12cd3d226d8a278ade8d2aab992df91ebbeb199b79b58d717126bc2c"
                 }
             ]
         }
