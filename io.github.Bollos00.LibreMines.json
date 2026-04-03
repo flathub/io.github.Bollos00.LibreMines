@@ -22,8 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Bollos00/LibreMines/archive/refs/tags/v2.2.0.tar.gz",
-                    "sha256": "36bf21ea12cd3d226d8a278ade8d2aab992df91ebbeb199b79b58d717126bc2c"
+                    "url": "https://github.com/Bollos00/LibreMines/archive/refs/tags/v2.3.0.tar.gz",
+                    "sha256": "41a60f532ff43995071ad3e0b2b11c6dcfe81b1c23236fde207268390a8fb196"
                 }
             ]
         }
